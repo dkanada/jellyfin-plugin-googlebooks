@@ -16,6 +16,6 @@ on:
 jobs:
   call:
     if: false
-    uses: jellyfin/jellyfin-meta-plugins/.github/workflows/scan-codeql.yaml@master
+    uses: jellyfin/jellyfin-meta-plugins/.github/workflows/scan-codeql.yaml@c253bb2877fe640646e18ceeee30441659ac0775 # master
     with:
       repository-name: jellyfin/jellyfin-plugin-googlebooks
